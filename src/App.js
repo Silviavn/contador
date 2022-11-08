@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Title from './components/Title'
+import Paragraph from './components/Paragraph';
+import Counter from './components/Counter'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title>titulo 1</Title>
+      <Title>titulo 2</Title>
+      <Title>titulo 3</Title>
+
+      <Paragraph>Quiero ser como tu cuando sea grande :p</Paragraph>
+      <Counter>SUMA LOS PINSHES NUMEROS :V</Counter>
+      
+    
     </div>
   );
 }
